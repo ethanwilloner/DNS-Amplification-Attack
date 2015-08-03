@@ -12,7 +12,8 @@ Tested and running on Debian Wheezy 7.0, compiles with both GCC and clang.
 Makefile uses clang.
 
 In my Testing, I could not make this work on actual, real world targets. Why?
-Who knows. I am not trying to weaponize it, so I have not put more than a few
+Because most common networks don't allow UDP source spoofing.
+ I am not trying to weaponize it, so I have not put more than a few
 hours into trying to figure out why, to no avail. Either way, it is still cool
 to be able to target a machine on your LAN and see endless streams of DNS packets
 showing up in Wireshark. 
